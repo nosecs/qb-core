@@ -68,6 +68,23 @@ QBShared.Jobs = {
             },
         },
 	},
+	['pizza'] = {
+		label = 'Pizzeria Worker',
+		defaultDuty = true,
+		offDutyPay = false,
+		grades = {
+            ['0'] = {
+                name = 'Intern',
+            },
+			['1'] = {
+                name = 'Chef',
+            },
+			['2'] = {
+                name = 'Chief',
+				isboss = true,
+            },
+        },
+	},
 	['realestate'] = {
 		label = 'Real Estate',
 		defaultDuty = true,
