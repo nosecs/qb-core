@@ -515,6 +515,8 @@ QBShared.Items = {
 	["ps_qs"] 			 			 = {["name"] = "ps_qs", 			  			["label"] = "P's & Q's", 				["weight"] = 100, 		["type"] = "item", 		["image"] = "ps_qs.png", 				["unique"] = false, 	["useable"] = true, 	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "Chocolate for you"},
 	["release_candy"] 			 	 = {["name"] = "release_candy", 				["label"] = "Release", 					["weight"] = 100, 		["type"] = "item", 		["image"] = "release_candy.png", 		["unique"] = false, 	["useable"] = true, 	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "Candy for you"},
 
+	["water_cup"] 			 		 = {["name"] = "water_cup", 					["label"] = "Water", 					["weight"] = 50, 		["type"] = "item", 		["image"] = "water_cup.png", 			["unique"] = false, 	["useable"] = true, 	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "Cup of water"},
+
 	-- Fishing
 	["fishing_rod"] 			 	 = {["name"] = "fishing_rod", 					["label"] = "Fishing Rod", 				["weight"] = 500, 		["type"] = "item", 		["image"] = "fishing_rod.png", 			["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Good luck fishing"},
 	["fishbait"] 				 	 = {["name"] = "fishbait", 						["label"] = "Fish Bait", 				["weight"] = 10, 		["type"] = "item", 		["image"] = "fishbait.png", 			["unique"] = false, 	["useable"] = false, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Bait to catch many many fishes"},
