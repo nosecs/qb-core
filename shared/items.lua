@@ -581,4 +581,6 @@ QBShared.Items = {
 	["trout"] 			 			 = {["name"] = "trout", 						["label"] = "Trout", 					["weight"] = 1000, 		["type"] = "item", 		["image"] = "trout.png", 				["unique"] = false, 	["useable"] = false, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Fish from the sea"},
 	["whitefish"] 			 		 = {["name"] = "whitefish", 					["label"] = "Whitefish", 				["weight"] = 1000, 		["type"] = "item", 		["image"] = "whitefish.png", 			["unique"] = false, 	["useable"] = false, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Fish from the sea"},
 
+	-- Useable bags
+	["duffel-bag"] 					 = {["name"] = "duffel-bag",					["label"] = "Duffel Bag",				["weight"] = 5000,		["type"] = "item",		["image"] = "duffel.png",				["unique"] = true,		["useable"] = true,		["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "An equippable duffel bag"},
 }
