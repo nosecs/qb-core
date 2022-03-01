@@ -61,7 +61,9 @@ RegisterNetEvent('QBCore:Command:SpawnVehicle', function(vehName)
     end
     local vehicle = CreateVehicle(hash, GetEntityCoords(ped), GetEntityHeading(ped), true, false)
     TaskWarpPedIntoVehicle(ped, vehicle, -1)
+    SetVehicleFuelLevel(vehicle, 100.0)
     SetModelAsNoLongerNeeded(vehicle)
+    
     TriggerEvent("vehiclekeys:client:SetOwner", QBCore.Functions.GetPlate(vehicle))
 end)
 
@@ -139,4 +141,17 @@ RegisterNetEvent('QBCore:Command:ShowMe3D', function(senderId, msg)
             Wait(0)
         end
     end)
+end)
+
+-- Listen to Shared being updated
+RegisterNetEvent('QBCore:Client:OnSharedUpdate', function(tableName, key, value)
+    QBCore.Shared[tableName][key] = value
+    TriggerEvent('QBCore:Client:UpdateObject')
+end)
+
+RegisterNetEvent('QBCore:Client:OnSharedUpdateMultiple', function(tableName, values)
+    for key, value in ipairs(values) do
+        QBCore.Shared[tableName][key] = value
+    end
+    TriggerEvent('QBCore:Client:UpdateObject')
 end)
