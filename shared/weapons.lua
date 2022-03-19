@@ -25,6 +25,7 @@ QBShared.Weapons = {
 	[`weapon_handcuffs`] 			 = {['name'] = 'weapon_handcuffs', 		['label'] = 'Handcuffs', 			['ammotype'] = nil,	['damagereason'] = 'Melee killed / Whacked / Executed / Beat down / Murdered / Battered'},
 	[`weapon_bread`] 				 = {['name'] = 'weapon_bread', 			['label'] = 'Baquette', 			['ammotype'] = nil,	['damagereason'] = 'Melee killed / Whacked / Executed / Beat down / Murdered / Battered'},
 	[`weapon_stone_hatchet`] 		 = {['name'] = 'weapon_stone_hatchet', 	['label'] = 'Weapon Stone Hatchet', ['ammotype'] = nil,	['damagereason'] = 'Knifed / Stabbed / Eviscerated'},
+	[`weapon_katana`] 				 = {['name'] = 'weapon_katana', 		['label'] = 'Katana',				['ammotype'] = nil,	['damagereason'] = 'Knifed / Stabbed / Eviscerated'},
 
     -- Handguns
 	[`weapon_pistol`] 				 = {['name'] = 'weapon_pistol', 		['label'] = 'Walther P99', 				['ammotype'] = 'AMMO_PISTOL',	['damagereason'] = 'Pistoled / Blasted / Plugged / Bust a cap in'},
