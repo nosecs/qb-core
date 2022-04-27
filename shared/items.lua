@@ -630,3 +630,4 @@ QBShared.Items = {
 	["goat_cheese"] 				 = {["name"] = "goat_cheese",					["label"] = "Goat Cheese",				["weight"] = 10,		["type"] = "item",		["image"] = "goat_cheese.png",			["unique"] = true,		["useable"] = false,	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "Goat cheese"},
 
 }
+
