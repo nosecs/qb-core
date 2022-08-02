@@ -629,5 +629,11 @@ QBShared.Items = {
 	["taco"] 						 = {["name"] = "taco",							["label"] = "Taco",						["weight"] = 10,		["type"] = "item",		["image"] = "taco.png",					["unique"] = true,		["useable"] = false,	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "Taco"},
 	["goat_cheese"] 				 = {["name"] = "goat_cheese",					["label"] = "Goat Cheese",				["weight"] = 10,		["type"] = "item",		["image"] = "goat_cheese.png",			["unique"] = true,		["useable"] = false,	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "Goat cheese"},
 
+	["weed_seeds"] 					 = {["name"] = "weed_seeds",					["label"] = "Weed seeds",				["weight"] = 10,		["type"] = "item",		["image"] = "weed_seeds.png",			["unique"] = true,		["useable"] = false,	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "For growing weed"},
+	["fertilizer"] 					 = {["name"] = "fertilizer",					["label"] = "Fertilizer",				["weight"] = 1000,		["type"] = "item",		["image"] = "fertilizer.png",			["unique"] = true,		["useable"] = false,	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "To help plants grow"},
+	["raw_weed"] 					 = {["name"] = "raw_weed",						["label"] = "Raw weed",					["weight"] = 1000,		["type"] = "item",		["image"] = "raw_weed.png",				["unique"] = true,		["useable"] = false,	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "Raw weed"},
+	["processed_weed"] 				 = {["name"] = "processed_weed",				["label"] = "Processed weed",			["weight"] = 1000,		["type"] = "item",		["image"] = "processed_weed.png",		["unique"] = true,		["useable"] = false,	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "Processed weed"},
+	["weed_bag"] 					 = {["name"] = "weed_bag",						["label"] = "Weed bag",					["weight"] = 100,		["type"] = "item",		["image"] = "weed_bag.png",				["unique"] = true,		["useable"] = true,		["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Bag of weed"},
+
 }
 
