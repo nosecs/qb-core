@@ -341,7 +341,7 @@ QBShared.Items = {
 	['rum'] 						 = {['name'] = 'rum', 							['label'] = 'Rum', 						['weight'] = 200, 		['type'] = 'item', 		['image'] = 'rum.png', 					['unique'] = false, 	['useable'] = true, 	['shouldClose'] = false,   ['combinable'] = nil,   ['description'] = 'Rum for the seas'},
 
 	-- Drugs
-	['joint'] 						 = {['name'] = 'joint', 			  	  		['label'] = 'Joint', 					['weight'] = 0, 		['type'] = 'item', 		['image'] = 'joint.png', 				['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Sidney would be very proud at you'},
+	['joint'] 						 = {['name'] = 'joint', 			  	  		['label'] = 'Joint', 					['weight'] = 5, 		['type'] = 'item', 		['image'] = 'joint.png', 				['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Sidney would be very proud at you'},
 	['cokebaggy'] 					 = {['name'] = 'cokebaggy', 			  	  	['label'] = 'Bag of Coke', 				['weight'] = 0, 		['type'] = 'item', 		['image'] = 'cocaine_baggy.png', 		['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'To get happy real quick'},
 	['crack_baggy'] 				 = {['name'] = 'crack_baggy', 			  	  	['label'] = 'Bag of Crack', 			['weight'] = 0, 		['type'] = 'item', 		['image'] = 'crack_baggy.png', 			['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'To get happy faster'},
 	['xtcbaggy'] 					 = {['name'] = 'xtcbaggy', 			  	  		['label'] = 'Bag of XTC', 				['weight'] = 0, 		['type'] = 'item', 		['image'] = 'xtc_baggy.png', 			['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Pop those pills baby'},
@@ -633,7 +633,7 @@ QBShared.Items = {
 	["fertilizer"] 					 = {["name"] = "fertilizer",					["label"] = "Fertilizer",				["weight"] = 1000,		["type"] = "item",		["image"] = "fertilizer.png",			["unique"] = true,		["useable"] = false,	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "To help plants grow"},
 	["raw_weed"] 					 = {["name"] = "raw_weed",						["label"] = "Raw weed",					["weight"] = 1000,		["type"] = "item",		["image"] = "raw_weed.png",				["unique"] = true,		["useable"] = false,	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "Raw weed"},
 	["processed_weed"] 				 = {["name"] = "processed_weed",				["label"] = "Processed weed",			["weight"] = 1000,		["type"] = "item",		["image"] = "processed_weed.png",		["unique"] = true,		["useable"] = false,	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "Processed weed"},
-	["weed_bag"] 					 = {["name"] = "weed_bag",						["label"] = "Weed bag",					["weight"] = 100,		["type"] = "item",		["image"] = "weed_bag.png",				["unique"] = true,		["useable"] = true,		["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Bag of weed"},
+	["weed_bag"] 					 = {["name"] = "weed_bag",						["label"] = "Weed bag",					["weight"] = 50,		["type"] = "item",		["image"] = "weed_bag.png",				["unique"] = true,		["useable"] = true,		["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Bag of weed"},
 
 }
 
